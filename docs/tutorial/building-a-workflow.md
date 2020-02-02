@@ -133,6 +133,7 @@ func render(state: State, context: RenderContext<DemoWorkflow>) -> DemoScreen {
     return DemoScreen(
         title: "A nice title",
         onTap: { sink.send(Action.refreshButtonTapped) }
+    )
 }
 ```
 
